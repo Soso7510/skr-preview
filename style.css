@@ -430,6 +430,30 @@ img {
     font-size: 0.9rem;
 }
 
+.menu-line {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 8px;
+    max-width: 360px;
+}
+
+.menu-line h5 {
+    display: inline;
+}
+
+.menu-line .item,
+.menu-line .price {
+    white-space: nowrap;
+}
+
+.menu-line .leader {
+    align-self: end;
+    border-bottom: 1px dotted #6b6b6b;
+    /* ligne pointillée */
+    transform: translateY(-0.5em);
+    /* alignement visuel */
+}
+
 /* ===========================
    Contact Section
    =========================== */
